@@ -10,3 +10,5 @@
 [user]
 	name = Oleg Boiko
 	email = oleh.boiko@gmail.com
+[push]
+	default = simple
