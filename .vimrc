@@ -37,6 +37,15 @@ map <C-h> <C-w>h
 map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
+nmap <S-f> :CtrlP<CR><C-\>w
+
+set smartindent
+set tabstop=4
+set shiftwidth=4
+set expandtab
+
+autocmd FileType yaml setlocal shiftwidth=2 tabstop=2
+autocmd FileType py setlocal shiftwidth=2 tabstop=2
 
 syntax enable
 set background=dark
