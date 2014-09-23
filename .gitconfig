@@ -1,16 +1,26 @@
 [alias]
 	co = checkout
+	br = branch
 	ci = commit
 	st = status
-	br = branch
-	ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
-	ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
-	lds = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=iso
-	le = log --oneline --decorate
+	reset = rs
+	rs = reset
+	res = reset
+    ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
+    ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
+    lds = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=short
+    le = log --oneline --decorate
+	lg = log --oneline --graph
+	lgd = log --oneline --graph --decorate
 [user]
-	name = Oleg Boiko
-	email = oleh.boiko@gmail.com
+	name = your name
+	email = email@example.com
 [push]
 	default = simple
+[color]
+	ui = auto
 [core]
 	editor = vim
+[branch "master"]
+	mergeoptions = --squash
+	rebase = true
