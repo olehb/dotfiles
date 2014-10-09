@@ -47,6 +47,7 @@ set expandtab
 autocmd FileType yaml setlocal shiftwidth=2 tabstop=2
 autocmd FileType py setlocal shiftwidth=2 tabstop=2
 
+set ruler
 syntax enable
 set background=dark
 colorscheme solarized
