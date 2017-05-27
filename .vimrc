@@ -18,6 +18,7 @@ Plugin 'php.vim'
 Plugin 'kien/ctrlp.vim'
 Plugin 'derekwyatt/vim-scala'
 Plugin 'embear/vim-foldsearch'
+Plugin 'tomtom/tcomment_vim'
 " Plugin 'wincent/Command-T'
 
 " All of your Plugins must be added before the following line
@@ -145,14 +146,14 @@ nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
-nmap <S-f> :CtrlP<CR><C-\>w
+map <Leader>c :TComment<cr>
 
 " set background=dark
 " colorscheme solarized
 colorscheme solarized8_dark_high
 set guifont=Source\ Code\ Pro:h13
+set expandtab
 
-
-let g:syntastic_check_on_open=1
-let g:syntastic_enable_signs=1
+let g:syntastic_check_on_open=0
+let g:syntastic_enable_signs=0
 let g:syntastic_auto_loc_list=1
