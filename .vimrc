@@ -17,6 +17,7 @@ Bundle 'lifepillar/vim-solarized8'
 Plugin 'php.vim'
 Plugin 'embear/vim-foldsearch'
 Plugin 'tomtom/tcomment_vim'
+Plugin 'tpope/vim-fugitive'
 " Plugin 'wincent/Command-T'
 
 " All of your Plugins must be added before the following line
