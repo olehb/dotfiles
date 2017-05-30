@@ -20,6 +20,7 @@ Plugin 'tomtom/tcomment_vim'
 Plugin 'tpope/vim-git'
 Plugin 'tpope/vim-fugitive'
 Plugin 'wincent/Command-T'
+Plugin 'majutsushi/tagbar'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -140,6 +141,7 @@ if !exists(":DiffOrig")
 		  \ | wincmd p | diffthis
 endif
 
+nnoremap <F7> :TagbarToggle<CR>
 nnoremap <F9> :NERDTreeFind<CR>
 nnoremap <F8> :NERDTreeToggle<CR>
 nnoremap <F10> :SyntasticToggleMode<CR>
