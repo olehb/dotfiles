@@ -18,6 +18,7 @@
 	ui = auto
 [core]
 	editor = vim
+	excludesfile = ~/.gitignore_global	
 [branch "master"]
 	mergeoptions = --squash
 	rebase = true
