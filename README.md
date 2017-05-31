@@ -14,3 +14,4 @@ Installation
 3. Start vim
 4. Run vim command `:VundleInstall`
 5. Restart vim
+6. Run `ln -s <absolute_path_to_gitignore_global_from_this_repo> ~/`
