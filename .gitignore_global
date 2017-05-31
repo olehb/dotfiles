@@ -1,0 +1,7 @@
+*~
+.DS_Store
+*.swp
+.idea/
+__pycache__/
+.vagrant/
+*.pyc
