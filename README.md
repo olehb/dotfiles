@@ -5,6 +5,7 @@ Prerequisites
  3. Install [Vundle](https://github.com/VundleVim/Vundle.vim), VIM plugin manager
  4. Run `brew install ctags`, if you plan to use Tagbar VIM plugin
  5. Optional, use MacVim: `brew install macvim`
+ 6. Install Git's [diff highlight](https://github.com/git/git/tree/master/contrib/diff-highlight)
 
 Installation
 ============
