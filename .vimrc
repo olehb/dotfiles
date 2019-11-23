@@ -155,10 +155,13 @@ map ÷ :TComment<CR>
 
 " set background=dark
 " colorscheme solarized
-colorscheme solarized8_dark_high
-set guifont=Source\ Code\ Pro:h13
-set expandtab
 
 let g:syntastic_check_on_open=0
 let g:syntastic_enable_signs=0
 let g:syntastic_auto_loc_list=1
+
+syntax enable
+set background=dark
+colorscheme solarized
+set expandtab
+set guifont=Monaco:h14

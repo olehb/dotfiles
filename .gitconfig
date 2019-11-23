@@ -19,10 +19,7 @@
 [core]
 	editor = vim
 	excludesfile = ~/.gitignore_global	
-[branch "master"]
-	mergeoptions = --squash
-	rebase = true
-[pager]
-        log = ~/diff-highlight.pl | less
-        show = ~/diff-highlight.pl | less
-        diff = ~/diff-highlight.pl | less
+#[pager]
+#        log = diff-highlight | less
+#        show = diff-highlight | less
+#        diff = diff-highlight | less
