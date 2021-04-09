@@ -153,15 +153,12 @@ nnoremap <C-l> <C-w>l
 map <Leader>c :TComment<CR>
 map ÷ :TComment<CR>
 
-" set background=dark
-" colorscheme solarized
-
 let g:syntastic_check_on_open=0
 let g:syntastic_enable_signs=0
 let g:syntastic_auto_loc_list=1
 
 syntax enable
 set background=dark
-colorscheme solarized
+colorscheme desert
 set expandtab
 set guifont=Monaco:h14
