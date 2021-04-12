@@ -161,4 +161,4 @@ syntax enable
 set background=dark
 colorscheme desert
 set expandtab
-set guifont=Monaco:h14
+set guifont=Monaco:h12
