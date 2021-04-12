@@ -10,8 +10,8 @@
 	lg = log --oneline --graph
 	lgd = log --oneline --graph --decorate
 [user]
-	name = your name
-	email = email@example.com
+	name = Oleg Boiko
+	email = oleh.boiko@gmail.com
 [push]
 	default = simple
 [color]
@@ -23,3 +23,5 @@
 #        log = diff-highlight | less
 #        show = diff-highlight | less
 #        diff = diff-highlight | less
+[init]
+	defaultBranch = main
