@@ -10,9 +10,7 @@ export ZSH="/Users/$(whoami)/.oh-my-zsh"
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 # ZSH_THEME="robbyrussell"
 ZSH_THEME="powerlevel9k/powerlevel9k"
-# ZSH_THEME="spaceship"
-POWERLEVEL9K_MODE="nerdfont-complete"
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=( dir vcs )
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=( dir rbenv vcs )
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=( status )
 ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#657b83"
